@@ -1,0 +1,167 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# IDE - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs
+*.log
+logs/
+log/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Application specific
+# 临时文件
+temp/
+tmp/
+*.tmp
+
+# 配置文件中的敏感信息（保留模板）
+# src/main/resources/application-prod.properties
+# src/main/resources/application-dev.properties
+
+# RPC Framework 特定
+# Nacos 本地配置缓存
+nacos/
+.nacos/
+
+# 序列化测试生成的文件
+serialization-test-*.dat
+
+# 监控数据文件
+metrics/
+monitoring/
+
+# 性能测试结果
+benchmark-results/
+*.jfr
+
+# 分布式配置本地缓存
+config-cache/
+
+# Docker
+.dockerignore
+Dockerfile.tmp
+
+# Kubernetes
+*.yaml.tmp
+*.yml.tmp
+
+# Gradle (如果将来使用)
+.gradle
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+/gradlew
+/gradlew.bat
+
+# 其他构建工具
+.ant/
+build.xml.bak
+
+# 备份文件
+*.backup
+*.orig
+
+# 压缩文件
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 其他
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+docs/
