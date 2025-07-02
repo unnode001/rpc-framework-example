@@ -165,3 +165,4 @@ build.xml.bak
 .env.test.local
 .env.production.local
 docs/
+.github/
